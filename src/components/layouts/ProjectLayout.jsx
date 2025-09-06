@@ -49,7 +49,6 @@ export default function ProjectLayout() {
           </Link>
         </div>
       </div>
-      {/* Terapkan motion.div pada kontainer */}
       <motion.div
         className="card-wrapper grid lg:grid-cols-2 gap-5"
         variants={containerVariants}
