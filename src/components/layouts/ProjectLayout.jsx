@@ -2,17 +2,16 @@ import { Link } from "react-router-dom";
 import { highlightPortfolio } from "../../../data/projects";
 import Card from "../ui/Card";
 import { MdOutlineArrowOutward } from "react-icons/md";
-import { motion } from "framer-motion"; // Pastikan import ini ada
+import { motion } from "framer-motion";
 import AnimatedText from "../ui/AnimatedText";
 
 export default function ProjectLayout() {
-  // Varian untuk kontainer (induk)
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2, // Jeda 0.2 detik antar setiap kartu
+        staggerChildren: 0.2,
       },
     },
   };
