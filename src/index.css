@@ -5,15 +5,43 @@
 @font-face {
   font-family: "Satoshi";
   src: url("/fonts/satoshi-variable.ttf") format("truetype");
-  font-weight: 100 900; /* variable weight dari thin sampai black */
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: "Figtre";
+  font-family: "Figtree";
   src: url("/fonts/figtree-variable.ttf") format("truetype");
-  font-weight: 100 900; /* variable weight dari thin sampai black */
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.backdrop-blur-ios {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(90deg, #ad95eb, #7362e2, #5a66e1, #7fc5c5);
+}
+
+.bg-gradient-pink {
+  background: url("/images/gradient-pink.png");
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 15s linear infinite;
 }
