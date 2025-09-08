@@ -1,4 +1,3 @@
-import React from "react";
 import { experiences } from "../../../data/experiences";
 import CardExperiences from "../ui/CardExperiences";
 import AnimatedText from "../ui/AnimatedText";
@@ -10,7 +9,7 @@ export default function ExperiencesLayout() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2, // Jeda 0.2 detik antar setiap kartu
+        staggerChildren: 0.2,
       },
     },
   };
@@ -24,7 +23,6 @@ export default function ExperiencesLayout() {
             Experience
           </h1>
         </div>
-        {/* AnimatedText sudah menggunakan triggerOnView, jadi ini akan berjalan saat di-scroll */}
         <AnimatedText
           el="span"
           text="Every experience is a valuable step that shapes expertise, strengthens teamwork skills, and fosters a spirit of continuous learning in the world of technology."
@@ -33,13 +31,12 @@ export default function ExperiencesLayout() {
           triggerOnView={true}
         />
       </div>
-      {/* Kunci: Gunakan motion.div dengan whileInView */}
       <motion.div
         className="card-experiences-wrapper"
         variants={containerVariants}
         initial="hidden"
-        whileInView="visible" // Memicu animasi saat masuk viewport
-        viewport={{ once: true, amount: 0.2 }} // Animasi sekali saja saat 20% terlihat
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.2 }}
       >
         {experiences.map((experience, index) => (
           <CardExperiences key={index} {...experience} />
