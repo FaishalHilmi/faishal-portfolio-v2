@@ -14,7 +14,7 @@ export default function Navbar({ activeLink, setActiveLink }) {
   const [isActive, setIsActive] = useState(false);
 
   const handleMobileNavLinkClick = (itemHref, itemName) => {
-    setActiveLink(itemName); // Panggil fungsi setActiveLink dari Home.jsx
+    setActiveLink(itemName);
     setIsActive(false);
 
     setTimeout(() => {
@@ -31,7 +31,7 @@ export default function Navbar({ activeLink, setActiveLink }) {
             <motion.li
               key={item.name}
               className="relative rounded-full z-10"
-              onClick={() => setActiveLink(item.name)} // Panggil fungsi setActiveLink dari Home.jsx
+              onClick={() => setActiveLink(item.name)}
             >
               <a
                 href={item.href}
@@ -62,6 +62,7 @@ export default function Navbar({ activeLink, setActiveLink }) {
       <div className="flex flex-col justify-end items-end w-full md:hidden">
         <div className="md:hidden mb-2">
           <motion.button
+            aria-label={isActive ? "Close menu" : "Open menu"}
             onClick={() => setIsActive(!isActive)}
             className="bg-white/40 backdrop-blur-sm p-3 rounded-lg shadow-lg"
             whileHover={{ scale: 1.1 }}
@@ -111,6 +112,7 @@ export default function Navbar({ activeLink, setActiveLink }) {
                     className="hover:bg-gradient-to-r from-secondary via-primary-light to-accent-info hover:text-white rounded-lg"
                   >
                     <a
+                      href={item.href}
                       onClick={() =>
                         handleMobileNavLinkClick(item.href, item.name)
                       }
