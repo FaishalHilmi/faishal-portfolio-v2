@@ -19,7 +19,7 @@ const Footer = forwardRef((props, ref) => {
       <div className="px-5 md:px-16 lg:px-36 py-12 md:py-20 lg:py-24">
         <div className="footer-wrapper text-white">
           <AnimatedText
-            el="h1"
+            el="h3"
             text="Connect and follow my social media to stay updated on my journey!"
             className="text-[32px] md:text-[52px] lg:text-[82px] leading-tight font-bold mb-12 lg:mb-14"
             once={true}
