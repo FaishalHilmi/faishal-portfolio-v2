@@ -22,9 +22,9 @@ export default function ProjectLayout() {
         <div className="mb-7 lg:mb-0">
           <div className="flex gap-2 mb-2.5 lg:mb-3.5">
             <span className="hidden lg:block lg:text-5xl">🛠️</span>
-            <h1 className="text-[60px] leading-tight pb-1.5 lg:text-6xl text-transparent font-figtree font-extrabold bg-clip-text bg-gradient-to-r from-secondary via-secondary-soft to-accent-info">
+            <h2 className="text-[60px] leading-tight pb-1.5 lg:text-6xl text-transparent font-figtree font-extrabold bg-clip-text bg-gradient-to-r from-secondary via-secondary-soft to-accent-info">
               Portfolio Highlights
-            </h1>
+            </h2>
           </div>
           <AnimatedText
             el="span"
