@@ -22,9 +22,9 @@ export default function AboutLayout() {
   return (
     <div className="about-wrapper grid grid-cols-1 lg:grid-cols-3 pb-72 lg:pb-52 relative">
       <div className="lg:col-span-2">
-        <h1 className="text-[40px] md:text-5xl lg:text-6xl leading-tight mb-10 lg:mb-12 text-transparent font-figtree font-extrabold bg-clip-text bg-gradient-to-r from-secondary via-secondary-soft to-accent-info">
+        <h2 className="text-[40px] md:text-5xl lg:text-6xl leading-tight mb-10 lg:mb-12 text-transparent font-figtree font-extrabold bg-clip-text bg-gradient-to-r from-secondary via-secondary-soft to-accent-info">
           Get to know me
-        </h1>
+        </h2>
         <div className="description flex flex-col gap-6 font-medium lg:text-xl">
           <span>
             Hello! My name is Faishal Hilmy Fadhilah Ginting, a Computer Science
