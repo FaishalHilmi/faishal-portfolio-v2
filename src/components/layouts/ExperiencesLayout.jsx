@@ -19,9 +19,9 @@ export default function ExperiencesLayout() {
       <div className="header mb-14">
         <div className="heading flex flex-col lg:flex-row gap-0 lg:gap-2 mb-2 lg:mb-4">
           <span className="text-[52px] lg:text-5xl">💼</span>
-          <h1 className="text-[60px] leading-tight pb-1.5 lg:text-6xl text-transparent font-figtree font-extrabold bg-clip-text bg-gradient-to-r from-secondary via-secondary-soft to-accent-info">
+          <h2 className="text-[60px] leading-tight pb-1.5 lg:text-6xl text-transparent font-figtree font-extrabold bg-clip-text bg-gradient-to-r from-secondary via-secondary-soft to-accent-info">
             Experience
-          </h1>
+          </h2>
         </div>
         <AnimatedText
           el="span"
