@@ -28,9 +28,9 @@ export default function CardExperiences({ role, company, location, date }) {
       <div className="block py-5 lg:py-12 bg-base">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-0 md:items-center">
           <div className="md:col-span-2">
-            <h3 className="text-[22px] md:text-3xl lg:text-4xl font-semibold mb-1 md:mb-3">
+            <h4 className="text-[22px] md:text-3xl lg:text-4xl font-semibold mb-1 md:mb-3">
               {role}
-            </h3>
+            </h4>
             <span className="text-lg md:text-[22px] text-primary-dark font-medium opacity-80">
               {company} - {location}
             </span>
