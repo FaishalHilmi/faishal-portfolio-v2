@@ -15,6 +15,7 @@ import {
   FaPython,
 } from "react-icons/fa";
 import { DiMysql } from "react-icons/di";
+import { SiExpress } from "react-icons/si";
 
 export const highlightPortfolio = [
   {
@@ -107,9 +108,24 @@ export const portfolios = [
   },
   {
     id: 5,
+    title: "GrantMatch",
+    description:
+      "Web-based decision support system for scholarship selection using the Weighted Product method",
+    image: "/images/grantmatch.png",
+    link: "https://github.com/FaishalHilmi/spk-wp",
+    icons: [
+      <BiLogoReact key="reactjs" />,
+      <SiExpress key="expressjs" />,
+      <BiLogoJavascript key="javascript" />,
+      <BiLogoTailwindCss key="tailwind" />,
+      <DiMysql key="mysql" />,
+    ],
+  },
+  {
+    id: 6,
     title: "Dirent",
     description:
-      "A user-friendly web-based car rental platform with a booking system, fleet list, and pricing information.",
+      "A user-friendly web-based car rental platform with a booking system, fleet list, and pricing information",
     image: "/images/dirent.png",
     link: "https://github.com/FaishalHilmi/website-dirent",
     icons: [
