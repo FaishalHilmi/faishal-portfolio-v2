@@ -23,7 +23,7 @@ export default function HeroLayout() {
           </div>
         </Link>
         <a
-          href="https://drive.google.com/file/d/1YMl4piqGtJ1EKsQ2jpF-7M-bwUZCJ_mw/view?usp=sharing"
+          href="https://drive.google.com/file/d/159gX3EfJYDDajvdwK18C6tSsMLrezKRQ/view?usp=sharing"
           target="_blank"
         >
           <div className="relative rounded-full font-semibold text-white bg-gradient-to-r from-white to-accent-success p-[2px] w-fit">
