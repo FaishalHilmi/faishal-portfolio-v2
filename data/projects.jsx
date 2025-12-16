@@ -37,7 +37,7 @@ export const highlightPortfolio = [
     title: "MaizeCare",
     description:
       "A machine learning-based system designed to identify diseases in corn leaves from leaf images",
-    image: "/images/pharmaforecast.png",
+    image: "/images/maizecare.png",
     link: "https://github.com/FaishalHilmi/maizecare",
     icons: [
       <BiLogoReact key="reactjs" />,
