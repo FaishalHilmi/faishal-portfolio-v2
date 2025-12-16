@@ -27,18 +27,30 @@ export default function AboutLayout() {
         </h2>
         <div className="description flex flex-col gap-6 font-medium lg:text-xl">
           <span>
-            Hello! My name is Faishal Hilmy Fadhilah Ginting, a Computer Science
-            student at Universitas Negeri Medan with a keen interest in Web
-            Development.
+            Hello! My name is{" "}
+            <strong className="font-extrabold">
+              Faishal Hilmy Fadhilah Ginting
+            </strong>
+            , a web developer with 2 years of experience. I focus on developing
+            functional, responsive digital solutions that deliver optimal
+            performance.
           </span>
           <span>
-            I have 2 years of experience in developing websites using ReactJS,
-            ExpressJS, and Laravel, and have participated in the Bangkit Academy
-            programme by Google, GoTo, and Traveloka.
+            My technical expertise focuses on website development. I am
+            proficient in building frontends using ReactJS and managing backends
+            using ExpressJS and Laravel.
           </span>
           <span>
-            Outside of coding, I enjoy discussing and collaborating to create
-            technology solutions that have a real impact.
+            I am also an alumnus of the prestigious Bangkit Academy 2023
+            program, a collaboration between Google, GoTo, and Traveloka. This
+            experience has strengthened my ability to create measurable,
+            industry-ready technology solutions.
+          </span>
+          <span>
+            Outside of my academic and coding responsibilities, I enjoy
+            discussing ideas, collaborating with teams, and constantly seeking
+            opportunities to develop technologies that have a positive and
+            tangible impact.
           </span>
         </div>
       </div>
